@@ -1,6 +1,14 @@
-/* Select distinct(medium)
-from nashville_public_art; */
+select * 
+from data_analyst_jobs; -- 1.) 1793 Rows 
 
-Select *
-from nashville_public_art
-where medium = 'Latex Paint';
+select *
+FROM data_analyst_jobs
+LIMIT 10;-- 2.) ExxonMobil
+
+select location
+from data_analyst_jobs;
+
+
+
+
+	
